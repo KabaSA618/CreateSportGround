@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="500.0" prefWidth="900.0" style="-fx-background-color: #00ffd9;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sport.Controller">
+   <center>
+       <Pane fx:id="pan" layoutX="195.0" layoutY="27.0" onMouseClicked="#PaneCl" onMouseMoved="#PaneMm" style="-fx-border-width: 10; -fx-border-color: 000; -fx-background-color: whitesmoke;" BorderPane.alignment="CENTER" />
+   </center>
+   <top>
+       <MenuBar layoutY="1.0" prefHeight="26.0" prefWidth="900.0">
+           <menus>
+               <Menu mnemonicParsing="false" text="Файл">
+                   <items>
+                  <MenuItem mnemonicParsing="false" onAction="#Load" text="Загрузить из файла" />
+                       <MenuItem mnemonicParsing="false" onAction="#OpenImage" text="Открыть фон" />
+                       <MenuItem mnemonicParsing="false" onAction="#Save" text="Сохранить" />
+                       <MenuItem mnemonicParsing="false" onAction="#Close" text="Закрыть" />
+                   </items>
+               </Menu>
+               <Menu mnemonicParsing="false" text="Редактировать">
+                   <items>
+                       <MenuItem mnemonicParsing="false" onAction="#Cop" text="Копировать" />
+                       <MenuItem mnemonicParsing="false" onAction="#Del" text="Удалить" />
+                       <MenuItem mnemonicParsing="false" onAction="#deleteall" text="Удалить Все" />
+                       <MenuItem mnemonicParsing="false" onAction="#Add" text="Выбрать" />
+                       <MenuItem mnemonicParsing="false" onAction="#Per" text="Переместить" />
+                   </items>
+               </Menu>
+           </menus>
+       </MenuBar>
+   </top>
+    <right>
+        <VBox alignment="TOP_CENTER" layoutX="750.0" layoutY="27.0" onDragDetected="#PaneMm" prefHeight="461.0" prefWidth="136.0" spacing="10.0">
+            <children>
+                <Label text="Отступ сверху" />
+                <TextField fx:id="MargT" />
+                <Label text="Отступ слева" />
+                <TextField fx:id="MargL" />
+                <Label text="Изменение размера элемента" />
+                <Slider fx:id="silder" />
+            <Label text="Режим работы:" />
+            <Label fx:id="Mode" text="Выбора" />
+            </children>
+        </VBox>
+    </right>
+    <left>
+        <VBox alignment="TOP_CENTER" layoutX="14.0" layoutY="27.0" prefHeight="462.0" prefWidth="144.0">
+            <children>
+                <Label alignment="CENTER" contentDisplay="CENTER" text="Выберете спрот. оборудования" />
+                <ListView fx:id="LV" prefHeight="389.0" prefWidth="362.0" />
+            </children>
+        </VBox>
+    </left>
+   <padding>
+      <Insets left="10.0" right="10.0" />
+   </padding>
+   <bottom>
+          <Label fx:id="LableName" text="Label" BorderPane.alignment="CENTER" />
+   </bottom>
+
+
+</BorderPane>
