@@ -6,4 +6,4 @@
 
 
 Скриншот рабочего окна приложения: 
-![Alt text](url img/Screenshot.png?raw=true "Employee Data title")
+![Image alt](https://github.com/KabaSA618/CreateSportGround/blob/main/img/Screenshot.png)
