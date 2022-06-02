@@ -6,4 +6,4 @@
 
 
 Скриншот рабочего окна приложения: 
-![Alt text](url /CreateSportGround/img/employee.png?raw=true "Employee Data title")
+![Alt text](url /CreateSportGround/img/Screenshot.png?raw=true "Employee Data title")
