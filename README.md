@@ -22,4 +22,4 @@
 - Installed JDK 18
 
 ## Приглашение к сотрудничеству
-Загрузите исходные тексты или клонируйте их с помощью команды git clone в выбранный каталог: git clone [https://github.com/KabaSA618/CreateSportGround.git](https://github.com/KabaSA618/CreateSportGround.git) и создать ветку
+Загрузите исходные тексты или клонируйте их с помощью команды git clone в выбранный каталог: git clone [https://github.com/KabaSA618/CreateSportGround.git](https://github.com/KabaSA618/CreateSportGround.git) и создайте ветку
